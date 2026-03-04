@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+dev_env/
+emotion_env/
+
+# Dataset (too large)
+data/
+
+# Outputs
+outputs_transformer/
+
+# Logs
+logs/
+
+# Mac files
+.DS_Store
