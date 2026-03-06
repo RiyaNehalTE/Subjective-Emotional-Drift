@@ -9,12 +9,23 @@ emotion_env/
 
 # Dataset (too large)
 data/
+hf_dataset/
 
-# Outputs
+# Training outputs
 outputs_transformer/
+**/checkpoint-*/
 
 # Logs
 logs/
+*.log
 
-# Mac files
+# Jupyter
+.ipynb_checkpoints/
+
+# Temp files
+*.tmp
+
+# OS
 .DS_Store
+
+drift_env/

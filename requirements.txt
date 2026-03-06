@@ -1,16 +1,4 @@
-torch
-transformers
 datasets
-accelerate
-scikit-learn
-pandas
-numpy
-tqdm
-pyyaml
-matplotlib
-mamba-ssm
-
-
 torch
 transformers==4.41.2
 accelerate

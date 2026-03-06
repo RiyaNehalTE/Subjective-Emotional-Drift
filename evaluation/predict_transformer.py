@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 
 
-MODEL_PATH = "outputs_transformer"
+MODEL_PATH = "outputs_transformer/checkpoint-12872"
 TEST_FILE = "data/test_encoded.csv"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
