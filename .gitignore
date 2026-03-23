@@ -1,31 +1,24 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Virtual environments
-dev_env/
-emotion_env/
-
-# Dataset (too large)
+# Data
 data/
 hf_dataset/
 
-# Training outputs
-outputs_transformer/
-**/checkpoint-*/
+# Model outputs & checkpoints
+outputs_*/
+mamba/
+
+# Virtual environments
+drift_env/
+emotion_env/
+*_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
 
 # Logs
 logs/
 *.log
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Temp files
-*.tmp
-
-# OS
+# System
 .DS_Store
-
-drift_env/
